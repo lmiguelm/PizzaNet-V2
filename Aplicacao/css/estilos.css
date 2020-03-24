@@ -1,0 +1,94 @@
+body{
+	min-height: 50vh;
+	background-color: black;
+	background-image: url("../img/fundo.jpg");
+	font: 100%;
+	font-family: helvetica, colibri, tahoma, sans-serif;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-color: black;
+	background-position: initial initial;
+	background-repeat: no-repeat;
+}
+h1{ 
+	font-size: 30px; color:white;
+}
+h2{
+	color:white;
+}
+label{
+	font-weight: bold; 
+	color: white;
+}
+p{
+	color: white; 
+	font-weight: bold;
+}
+h1{
+	animation: neon 2s alternate infinite ease-in-out;
+}
+textarea{
+	height: 300px;
+}
+
+h3{
+	color:white;
+}
+.login{
+	color: white;
+}
+.white{
+	color:white;
+}
+@keyframes neon
+{
+	from
+	{
+		filter: drop-shadow(0 0 0 var(--cor--neon));
+	}
+	to
+	{
+		filter: drop-shadow(0 0 30px var(--cor--neon));
+	}
+}
+.muda{
+	--cor--neon: red;
+}
+
+.link:hover{
+	color:red; 
+	text-decoration: none
+}
+.label_modal{
+	color:black;
+}
+
+.logotipo{
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.logotipo img{
+	height: 30px;
+}
+.corpo{
+	margin-top: 70px;
+}
+.esqueci{
+	font-size: 12px !important;
+}
+.red{
+	color:green;
+}
+.ta{
+	margin-top: 100px;
+	margin-left: 350px;
+}
+.t{
+	margin-top:100px;
+	margin-left: 50px;
+}
+.p{
+	color: black;
+	font-weight: normal;
+}
